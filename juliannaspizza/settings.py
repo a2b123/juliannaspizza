@@ -146,7 +146,7 @@ AUTHENTICATION_BACKENDS = (
 
 # Facebook configuration
 SOCIAL_AUTH_FACEBOOK_KEY = '165453760661110'
-SOCIAL_AUTH_FACEBOOK_SECRET = 'cbd1b040a10c8a48ebfcecd2393a0f5c'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'EAACWerShhnYBAOEKIEIKqDpjDUEYNVOvFD0bZAIPkfKNZBCZBc0QPELPC4irxFZAjnv6GBZBf0EnUmBZABQRXD2qgVdySTZCRqLTpR5OBuNhPIqshZBsluDcLFjRkTNJ6FwKVVQ6NFtWnKgcZBAvqj1ZCYEWAIzICQtJtKMkTtqNZARIqUn0Re5aZB0VIZB9ZCHpH1YmsZD'
 
 # Define SOCIAL_AUTH_FACEBOOK_SCOPE to get extra permissions from facebook. Email is not sent by default, to get it, you must request the email permission:
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
@@ -166,3 +166,5 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
 )
+
+STRIPE_API_KEY = 'sk_test_7S35iTzXuvSBZHfIxI5hxW3o'
