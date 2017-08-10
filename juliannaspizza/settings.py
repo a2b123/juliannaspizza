@@ -145,8 +145,8 @@ AUTHENTICATION_BACKENDS = (
 )
 
 # Facebook configuration
-SOCIAL_AUTH_FACEBOOK_KEY = '165453760661110'
-SOCIAL_AUTH_FACEBOOK_SECRET = '131398911e7ba4fd32ac40892055cc46'
+SOCIAL_AUTH_FACEBOOK_KEY = '1900615983594230'
+SOCIAL_AUTH_FACEBOOK_SECRET = '3477a4369ff2a5a9d1b45047c6334ccb'
 
 # Define SOCIAL_AUTH_FACEBOOK_SCOPE to get extra permissions from facebook. Email is not sent by default, to get it, you must request the email permission:
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
